@@ -12,15 +12,16 @@
   <style type="text/css">
     
     /* Outlines the grids, remove when sending */
-    table td { border: 1px solid cyan; }
-
-    /* IMPORTED GOOGLE FONTS */
-    @import url('https://fonts.googleapis.com/css?family=Abel|Changa+One|Walter+Turncoat&display=swap');
+    /*table td { border: 1px solid cyan; }*/
 
     /* FONT STYLING */
-    h1, h2 { font-family: 'Changa One', cursive; letter-spacing: 2px; }
-    h3, h4 { font-family: 'Walter Turncoat', cursive; }
+    h1, h2 { font-family: 'Changa One', cursive; letter-spacing: 2px; text-transform: uppercase; font-size: 42px;}
+    h3, h4 { font-family: 'Walter Turncoat', cursive; text-transform: uppercase;}
     body { font-family: 'Abel', sans-serif; }
+
+    /* BUTTON EFFECTS */
+    .btn-orange { background-color: #F95C28;}
+    .btn-orange:hover { background-color: #FF3008; }
 
     /* CLIENT-SPECIFIC STYLES */
     body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
@@ -64,7 +65,7 @@
   <center>
 
     <!-- Email Table Area Start -->
-    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#f2f2f2">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#b8b8b8">
       <tr>
         <td align="center" valign="top">
 
@@ -77,6 +78,7 @@
             <tr>
               <td align="center" valign="top">
 
+                <!-- Pre-Header Content Table -->
                 <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
                   <tr>
                     <td align="center" valign="top">
@@ -84,6 +86,7 @@
                     </td>
                   </tr>
                 </table>
+                <!-- End Pre-Header Content Table -->
 
               </td>
             </tr>
@@ -91,25 +94,49 @@
               <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
           </table>
-
           <!-- Pre-Header Table End -->
 
           <!-- Hero Table -->
-            
-          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#f2f2f2" style="background: url('https://i.ibb.co/rxvkprZ/rocky-wall-2.png'); background-repeat: repeat;">
+          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#fff" style="background: url('./assets/rocky-wall-bg.png'); background-repeat: no-repeat; background-size: cover;">
             <tr>
               <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
             <tr>
               <td align="center" valign="top">
 
+                <!-- Hero Content Table -->
                 <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
                   <tr>
                     <td align="center" valign="top">
-                      <h1 style="color: #8cc63f;">ISLAND FRESH SEAFOOD</h1>
+                      <div style="padding-top: 20px">
+                        <img src="./assets/pokebowl.png" alt="">
+                      </div>
+                      <img src="./assets/offer.gif" alt="" style="width: 300px">
+                      <h3 style="color: #8cc63f; margin: 0;">Buy Two Large Bowls</h3>
+                      <h1 style="color: #8cc63f; margin: 0;"">Get One FREE</h1>
+                      
+                        <!-- Hero Button -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                              <td>
+          
+                                <table border="0" cellspacing="0" cellpadding="0" style="margin: 0px auto; text-align: center;">
+                                  <tr>
+                                    <td>
+                                      <a class="btn-orange" href="https://www.ahipokibowl.com/" target="_blank" style="font-size: 18px; color: #ffffff; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: bold; border-radius: 3px;">Order Today</a>
+                                    </td>
+                                  </tr>
+                                </table>
+                                
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- End of Hero Button -->
+
                     </td>
                   </tr>
                 </table>
+                <!-- End Hero Content Table -->
 
               </td>
             </tr>
@@ -117,82 +144,164 @@
               <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
           </table>
-
           <!-- Hero Table End -->
 
-          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+          <!-- Section 2 Table -->
+          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF" style="background: url('https://i.ibb.co/jgtfNjQ/chalkboard.jpg'); background-size: cover; background-repeat: no-repeat;">
             <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+              <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
             <tr>
               <td align="center" valign="top">
 
+                <!-- Section 2 Content Table -->
                 <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
                   <tr>
-                    <td width="300" class="mobile" align="center" valign="top">
-                      Grid Two
-                    </td>
-                    <td width="300" class="mobile" align="center" valign="top">
-                      Grid Two
+                    <td width="300" class="mobile" align="center" valign="top" style="background-color: #8cc63f; color: #FFF">
+                      <h3>Join The Captain's Club</h3>
+                      <ul>
+                        <li style="text-align: left;">Get 50% OFF a regular bowl TODAY</li>
+                        <li style="text-align: left;">For every $99, earn a FREE BOWL</li>
+                      </ul>
+                         
+                      <!-- Section 2 Button -->
+                          <table width="100%" border="0" cellspacing="0" cellpadding="10">
+                            <tr>
+                              <td>
+          
+                                <table border="0" cellspacing="0" cellpadding="0" style="margin: 0px auto; text-align: center;">
+                                  <tr>
+                                    <td>
+                                      <a class="btn-orange" href="https://www.ahipokibowl.com/" target="_blank" style="font-size: 18px; color: #ffffff; text-decoration: none; padding: 10px 20px; display: inline-block; font-weight: bold; border-radius: 3px;">Get Rewards</a>
+                                    </td>
+                                  </tr>
+                                </table>
+                                
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- End of Section 2 Button -->
+                    
+                        </td>
+                    <td width="300" class="mobile" align="center" valign="top" style="color: #FFF"">
+                        <h3>CREATE YOUR BOWL</h3>
+                        <ul>
+                          <li style="text-align: left;">Step 1: Choose your base</li>
+                          <li style="text-align: left;">Step 2: Choose your seafood</li>
+                          <li style="text-align: left;">Step 3: Choose your sauce</li>
+                          <li style="text-align: left;">Step 4: Choose your toppings</li>
+                        </ul>
                     </td>
                   </tr>
                 </table>
+                <!-- End Section 2 Content Table -->
 
               </td>
             </tr>
             <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+              <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
           </table>
+          <!-- End Section 2 Table -->
 
-          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+          <!-- Section 3 Table -->
+          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF" style="background: url('./assets/rocky-wall-bg.png'); background-repeat: no-repeat; background-size: cover;">
             <tr>
-             <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+             <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
             <tr>
               <td align="center" valign="top">
 
+
+                <!-- Section 3 Content Container Table -->
                 <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
                   <tr>
-                      <td width="200" class="mobile" align="center" valign="top">
-                        Grid Three
-                      </td>
-                      <td width="200" class="mobile" align="center" valign="top">
-                        Grid Three
-                      </td>
-                      <td width="200" class="mobile" align="center" valign="top">
-                        Grid Three
-                      </td>
+                    <td align="center" valign="top">
+                      <h3 style="color: #8cc63f; margin: 0;"">A Bowl of Vacay</h1>
+                      <h1 style="color: #8cc63f; margin: 0;">In Every Bite</h3>
+                      <p style="padding: 0 20px;">If a tropical vacation, good weather, sandy beaches, and delicious seafood sound amazing, take a bite of our poke, you'll get a taste of Hawaii in every bite.</p>
+                  
+
+                    <!-- Section 3 Content Table -->  
+                    <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                      <tr>
+                        <td width="200" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <img src="./assets/1.png" alt="1" style="width: 100px;">
+                        </td>
+                        <td width="400" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <h4 style="color: #8cc63f; margin: 0;">Ocean of rice</h4>
+                          <p style="margin: 0; text-align: left;">Cover the bottom with floral-scented jasmine rice, whole grains or traditional white rice. Going green this month? Start with a bed of lettuce.</p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td width="200" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <img src="./assets/2.png" alt="1" style="width: 100px;">
+                        </td>
+                        <td width="400" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <h4 style="color: #8cc63f; margin: 0;">Modern seafood</h4>
+                          <p style="margin: 0; text-align: left;">Choose your catch of the day! From protein-packed yellowfin tuna to flavorful salmon, seafood will have your belly feeling happy and satisfied.</p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td width="200" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <img src="./assets/3.png" alt="1" style="width: 100px;">
+                        </td>
+                        <td width="400" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <h4 style="color: #8cc63f; margin: 0;">Mountain of toppings</h4>
+                          <p style="margin: 0; text-align: left;">Dive into a medley of crunchy, spicy, salty and fruity toppings. We’re talking jalapeños to wake up your taste buds, sweet (but low-cal) pineapples and so much more. The combinations are endless!</p>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td width="200" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <img src="./assets/4.png" alt="1" style="width: 100px;">
+                        </td>
+                        <td width="400" class="mobile" align="center" valign="top" style="padding: 20px;">
+                          <h4 style="color: #8cc63f; margin: 0;">Tasty sauce</h4>
+                          <p style="margin: 0; text-align: left;">Don’t be afraid to add a lil’ something extra to your poke. Drizzle on salty soy sauce or rich, creamy aioli.</p>
+                        </td>
+                      </tr>
+
+                    </table>
+                    <!-- End of Section 3 Content Table -->
+
+                    </td>
                   </tr>
                 </table>
+                <!-- End of Section 3 Content Container Table -->
 
               </td>
             </tr>
             <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+              <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
           </table>
+          <!-- End Section 3 Table -->
 
-          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
+          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#6DAF36">
             <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+              <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
             <tr>
               <td align="center" valign="top">
 
                 <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
                   <tr>
-                    <td width="150" class="mobile" align="center" valign="top">
-                      Grid Four
-                    </td>
-                    <td width="150" class="mobile" align="center" valign="top">
-                      Grid Four
-                    </td>
-                    <td width="150" class="mobile" align="center" valign="top">
-                      Grid Four
-                    </td>
-                    <td width="150" class="mobile" align="center" valign="top">
-                      Grid Four
+                    <td align="center" valign="top" style="color: #fff;">
+                      <p style="margin: 0">808 Poke Way HQ,</p>
+                      <p style="margin: 0">Honolulu HI, 96795</p>
+                      <span>
+                        <a href="#" style="color: #fff">Web View</a>
+                        &nbsp;|&nbsp;
+                        <a href="#" style="color: #fff">Terms</a>
+                        &nbsp;|&nbsp;
+                        <a href="#" style="color: #fff">Privacy</a>
+                        &nbsp;|&nbsp;
+                        <a href="#" style="color: #fff">Unsubscribe</a>
+                      </span>
+                      <h5 style="margin: 0; padding: 10px 0">© 2019, Ahipoki Bowl. All Rights Reserved.</h4>
                     </td>
                   </tr>
                 </table>
@@ -200,41 +309,7 @@
               </td>
             </tr>
             <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
-            </tr>
-          </table>
-
-          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#FFFFFF">
-            <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
-            </tr>
-            <tr>
-              <td align="center" valign="top">
-
-                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
-                  <tr>
-                    <td width="120" class="mobile" align="center" valign="top">
-                      Grid Five
-                    </td>
-                    <td width="120" class="mobile" align="center" valign="top">
-                      Grid Five
-                    </td>
-                    <td width="120" class="mobile" align="center" valign="top">
-                      Grid Five
-                    </td>
-                    <td width="120" class="mobile" align="center" valign="top">
-                      Grid Five
-                    </td>
-                    <td width="120" class="mobile" align="center" valign="top">
-                      Grid Five
-                    </td>
-                  </tr>
-                </table>
-
-              </td>
-            </tr>
-            <tr>
-              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+              <td height="20" style="font-size:10px; line-height:10px;">&nbsp;</td>
             </tr>
           </table>
             
